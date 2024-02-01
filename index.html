@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year New Me</title>
+        <!-- DaisyUI and Tailwind CSS Connection -->
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+        <script src="https://cdn.tailwindcss.com"></script>
+    
+        <!-- Google Font Connection -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">    
+        <!-- Fontawesome connection -->
+        <script src="https://kit.fontawesome.com/6e7e069626.js" crossorigin="anonymous"></script>
+    
+        <!-- Tailwind CSS Coloring -->
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    'black-color': '#131318',
+                    'btn-color': '#B68C5A',
+                    'grey-color': '#A0A0A0',
+                    'heading': '#414040',
+                    'para': '#707070',
+
+                  }
+                }
+              }
+            }
+          </script>
+    
+        <!-- Google Font Styling (RAW CSS) -->
+        <style>
+            .font-work-sans{
+                font-family: 'Work Sans', sans-serif;
+            }
+        </style>
+</head>
+<body class="font-work-sans">
+    <header class="bg-[url('./images/banner/banner3.png')] lg:h-screen bg-no-repeat bg-cover bg-center pb-10 lg:pb-0">
+        <div class="text-white container mx-aut pt-10 lg:pt-60 text-center lg:text-right">
+            <h1 class="text-4xl lg:text-6xl font-bold pb-6">All Thinks Are <br> Possible If You <br> believe</h1>
+            <div class="flex justify-center lg:justify-end pb-8">
+                <p class="lg:w-1/3 px-10 lg:px-0 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+            </div>
+            <button class="text-[#005FAC] bg-white px-6 py-5 rounded-md text-xl font-semibold ">Contact Us</button>
+        </div>
+    </header>
+
+    <main class="container mx-auto">
+        <section class="mt-36">
+            <div class="flex flex-col lg:flex-row items-center gap-32 justify-center">
+                <div class="flex-1">
+                    <img class="w-[80vh]" src="./images/person.png" alt="">
+                </div>
+                <div class="flex-1 text-center lg:text-start">
+                    <h1 class="text-4xl font-bold pb-6">My failures of <br> previous year</h1>
+                    <p class="lg:w-2/3 px-10 lg:px-0 pb-4">
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock.
+                    </p>
+                    <ul class="list-image-[url('./images/check.png')] list-inside items-center space-y-2">
+                        <li>Contrary to popular belief, is not simply.</li>
+                        <li>Contrary to popular belief.</li>
+                        <li>Contrary to popular , is not simply.</li>
+                        <li>Contrary to popular belief, is not simply.</li>
+                        <li>Contrary to popular simply.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-36">
+            <h1 class="text-4xl font-bold pb-14 text-center">My Plans</h1>
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-0 justify-items-center">
+                <div class="text-center">
+                    <img class="mx-auto" src="./images/icons/web.png" alt="">
+                    <h3 class="text-3xl font-bold pt-6 pb-4">Web Development</h3>
+                    <p class="text-2xl font-medium text-gray-500">I want to start</p>
+                </div>
+                <div class="text-center">
+                    <img class="mx-auto"  src="./images/icons/js.png" alt="">
+                    <h3 class="text-3xl font-bold pt-6 pb-4">Javascript</h3>
+                    <p class="text-2xl font-medium text-gray-500">I want to learn</p>
+                </div>
+                <div class="text-center">
+                    <img class="mx-auto"  src="./images/icons/smoke.png" alt="">
+                    <h3 class="text-3xl font-bold pt-6 pb-4">Smoking Habit</h3>
+                    <p class="text-2xl font-medium text-gray-500">I want to end</p>
+                </div>
+                <div class="text-center">
+                    <img class="mx-auto"  src="./images/icons/ecom.png" alt="">
+                    <h3 class="text-3xl font-bold pt-6 pb-4">ecommerce</h3>
+                    <p class="text-2xl font-medium text-gray-500">I want to develop</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-36 bg-[url('./images/gradient1.png'),url('./images/watch.png')] bg-no-repeat bg-cover p-16 rounded-lg">
+            <h1 class="text-white text-5xl font-bold pb-6">Awlays keep a positive <br> mindset</h1>
+            <button class="text-[#005FAC] bg-white px-6 py-5 rounded-md text-xl font-semibold ">Call Now</button>
+        </section>
+    </main>
+
+    <footer class="bg-[#151414] mt-36 py-32 px-10 lg:px-56 text-white">
+        <div class="flex flex-col lg:flex-row justify-between gap-16 lg:gap-0">
+            <div>
+                <h1 class="text-5xl font-bold pb-4">Future</h1>
+                <p class="lg:w-5/12 pb-6 leading-7">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words</p>
+                <p class="pb-4">Email : info@gmail.com</p>
+                <p class="pb-6">Phone : 01500 00 00 00</p>
+                <div class="flex gap-4">
+                    <img src="./images/icons/fb.png" alt="">
+                    <img src="./images/icons/twitter.png" alt="">
+                    <img src="./images/icons//youtube.png" alt="">
+                </div>
+            </div>
+        
+            <div>
+                <h2 class="text-2xl font-semibold pb-8">Subscribe</h2>
+                <input type="text" placeholder="Enter your email" class="p-5 w-full rounded-lg bg-transparent border-2 border-white">
+                <button class="bg-[#005FAC] text-white px-6 py-5 rounded-md text-xl font-semibold mt-4">Call Now</button>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
